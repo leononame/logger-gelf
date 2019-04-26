@@ -1,0 +1,3 @@
+# Logger GELF [![GoDoc](https://godoc.org/github.com/leononame/logger-gelf?status.svg)](https://godoc.org/github.com/leononame/logger-gelf) [![Build Status](https://cloud.drone.io/api/badges/leononame/logger-gelf/status.svg)](https://cloud.drone.io/leononame/logger-gelf) [![codecov](https://codecov.io/gh/leononame/logger-gelf/branch/master/graph/badge.svg)](https://codecov.io/gh/leononame/logger-gelf)
+
+This package contains an implementation for the [Logger](https://github.com/leononame/logger) structured logging abstraction. The implementation of this package uses zerolog as structured logging backend and logs everything in the GELF format. Other implementations and the actual docs can be found on the original [Logger](https://github.com/leononame/logger) package.
